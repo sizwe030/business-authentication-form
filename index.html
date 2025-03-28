@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Business Profile Contact</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <div class="top-navbar">
+    <div class="nav-left">
+      <span class="material-icons">search</span>
+      <span class="material-icons">folder</span>
+      <span class="material-icons" id="ai-assistant-icon">build</span>
+      <span class="material-icons">chat</span>
+    </div>
+    <span class="material-icons nav-profile">account_circle</span>
+  </div>
+
+  <!-- Form Section -->
+  <div class="form-wrapper">
+    <div class="form-card">
+      <h2>Business Profile Authentication</h2>
+      <form>
+        <label for="company">Company Name</label>
+        <input id="company" type="text" placeholder="Roadrunnerr Logistics" />
+
+        <label for="address1">Address 1</label>
+        <input id="address1" type="text" />
+
+        <label for="address2">Address 2</label>
+        <input id="address2" type="text" />
+
+        <label for="pobox">P.O. Box Address</label>
+        <input id="pobox" type="text" />
+
+        <label for="city">City / Town / Village</label>
+        <input id="city" type="text" />
+
+        <div class="row">
+          <div>
+            <label for="state">State</label>
+            <input id="state" type="text" />
+          </div>
+          <div>
+            <label for="zip">Zip Code</label>
+            <input id="zip" type="text" />
+          </div>
+        </div>
+
+        
+          <div>
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="South Africa">South Africa</option>
+              <option value="Namibia">Namibia</option>
+              <option value="Botswana">Botswana</option>
+              <option value="Lesotho">Lesotho</option>
+              <option value="Eswatini">Eswatini</option>
+            </select>
+          </div>
+        </div>
+
+
+        <button type="submit" class="next-button">Next</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom Navbar -->
+  <div class="bottom-navbar">
+    <div class="nav-item">
+      <span class="material-icons">construction</span>
+      <p>Toolbox</p>
+    </div>
+    <div class="nav-item">
+      <span class="material-icons">groups</span>
+      <p>Clients</p>
+    </div>
+    <div class="nav-item">
+      <span class="material-icons">language</span>
+      <p>Network</p>
+    </div>
+    <div class="nav-item">
+      <span class="material-icons">help</span>
+      <p>Help</p>
+    </div>
+    <div class="nav-item">
+      <span class="material-icons">check_circle</span>
+      <p>Tasks</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
